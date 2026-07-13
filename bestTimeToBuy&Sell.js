@@ -11,3 +11,6 @@ function bestTimeToBuyAndSell(prices) {
     }
     return curMax;
 }
+
+let prices = [7,1,5,3,6,4];
+console.log(bestTimeToBuyAndSell(prices)); // 5
